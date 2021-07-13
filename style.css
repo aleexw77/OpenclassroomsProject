@@ -1,8 +1,8 @@
 /*GENERAL*/
 
 html,body {
-    font-family: Raleway;
-}
+    font-family: Raleway
+}  
 
 .center {
     display: flex;
@@ -144,9 +144,29 @@ align-items: center;
     background-color: #deebff;
     color: #0065fc;
     height: 45px;
-    width: 45px;
+    width: 5px;
     border-radius: 25px;
     
+}
+
+.espacefilter {
+    border : 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.IconsBack {
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+.paddingtexte {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -161,15 +181,6 @@ align-items: center;
 
 
 
-
-.iconFs {
-    
-    border-radius: 25px;
-    width: 52px;
-    height: 52px;
-    color:#0065fc;
-    background-color: #deebff;
-}
 
 
 
@@ -365,10 +376,6 @@ align-items: center;
 
 .margindivact {
  margin-right: 50px;
-}
-
-.margincutdiv {
-  margin-top: 30px
 }
 
 
