@@ -1,8 +1,12 @@
 /*GENERAL*/
 
 html,body {
-    font-family: Raleway
+    font-family: Raleway;
+    
+    
 }  
+
+
 
 .center {
     display: flex;
@@ -206,6 +210,8 @@ align-items: center;
     width: 70%;
     border-radius: 10px;
     margin-right: 20px;
+    
+
 
     
 }
@@ -215,6 +221,8 @@ align-items: center;
     width: 30%;
     border-radius: 10px;
     margin-left: 20px;
+    
+
     
     
 }
@@ -232,14 +240,10 @@ align-items: center;
 }
 
 
-.background {
-    padding: 4px;
-    border-radius: 25px;
-    background-color: white;
-}
-
 .padTexte {
     padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 
@@ -257,15 +261,42 @@ align-items: center;
     margin-bottom: 50px;
 }
 
+.paddingleftpopulaire {
+    padding-left: 1px;
+}
+
+.tailledivpopu {
+width: 55%;
+height: 200px;
+}
+
+.sizediv {
+    width: 80%;
+    height: 200px;
+}
+
+.paddingbottompop {
+    padding-bottom: 20px;
+}
+
+
+
+
+
 .sizeimgpop {
-    height: 220px;
-    width: 250px;
+    height: 200px;
+    width: 100%;
     border-radius: 25px 0 0 25px;
 }
 
-.paddingpop {
-    padding-left: 40px;
+.marginpop {
+    margin-left: 40px;
+    margin-right: 35px;
 }
+.paddingTextepop {
+ padding-right: 20px;
+}
+
 .align1 {
     display: flex;
     align-items: center;
@@ -282,17 +313,14 @@ align-items: center;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .taileldiv {
     height: 235px;
 }
 
-.backback2 {
-    padding: 1px;
-    background-color: white;
-    border-radius: 25px;
-}
+
 
 .marginleft1 {
     margin-left: 35px;
@@ -304,9 +332,11 @@ align-items: center;
 }
 
 
-.positionafficher {
-    padding-left: 45px;
-    padding-top: 60px;
+.afficherplusposition {
+    padding-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    
 }
 
 .positiontexteHeberg {
@@ -314,7 +344,7 @@ align-items: center;
 }
 
 .paddingchart {
-    padding-right: 50px;
+    padding-right: 80px;
 }
 
 .colorstarsblue {
@@ -327,6 +357,10 @@ align-items: center;
 
 .paddingtopstars {
   padding-top: 65px;
+}
+
+.marginlespluspopulaires {
+    margin-left: 50px;
 }
 
 
@@ -408,3 +442,48 @@ align-items: center;
 }
 
 
+@media screen and (max-width: 900px) {
+    .reversediv {
+      flex-direction: column-reverse;
+      height: auto;
+      
+      
+
+    }
+    .reverseheberg {
+        flex-direction: column;
+        height: auto;
+          
+    }
+    .backNoGrey {
+        background-color: white;
+    }
+
+    .sizeHebergement{
+        width: 100%;
+    }
+
+    .tailledivhebergement {
+        width: 90%;
+    }
+
+    .sizepopulaires {
+        width: 100%;
+    }
+
+    .blocActivités {
+        width: 100%;
+    }
+
+    .tailediv{
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imgsizeactivites {
+        height: 300px;
+    }
+  }
+
+  
