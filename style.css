@@ -2,6 +2,10 @@
 
 html,body {
     font-family: Raleway;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
     
     
 }  
@@ -211,6 +215,8 @@ align-items: center;
     border-radius: 10px;
     margin-right: 20px;
     
+    
+    
 
 
     
@@ -236,8 +242,15 @@ align-items: center;
 
 .tailledivhebergement {
     width: 30%;
-    height: 330px;
+    height: 330px; 
 }
+
+.tailledivhebergement:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
 
 
 .padTexte {
@@ -273,6 +286,13 @@ height: 200px;
 .sizediv {
     width: 80%;
     height: 200px;
+    
+}
+
+
+.sizediv:hover {
+cursor: pointer;
+transform: scale(1.1);
 }
 
 .paddingbottompop {
@@ -313,10 +333,12 @@ height: 200px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    
+    
 }
 
-.taileldiv {
+.taileldivpopu {
     height: 235px;
 }
 
@@ -356,11 +378,18 @@ height: 200px;
 }
 
 .paddingtopstars {
-  padding-top: 65px;
+  
+  
 }
 
 .marginlespluspopulaires {
     margin-left: 50px;
+    
+}
+
+.marginpop2 {
+    margin-top: 50px;
+    height: auto;
 }
 
 
@@ -384,9 +413,17 @@ height: 200px;
 }
 
 .tailediv {
-    width: 25%;
+    width: 100%;
     height: 600px;
 }
+
+ .colonCenter:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+   
 
 .colonCenter {
 display: flex;
@@ -396,23 +433,26 @@ align-items: center;
 }
 
 .hauteurtitle {
-    height: 65px;
+    height: 75px;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .borderimg {
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
+  border-radius: 25px 25px 0 0;
 }
 
 .borderact {
-    border-radius:15px;
+    
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     width: 100%;
 }
 
 .margindivact {
  margin-right: 50px;
+}
+
+.imgdivactivites{
+    width: 100%;
 }
 
 /*FOOTER*/
@@ -442,48 +482,153 @@ align-items: center;
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1025px) {
+    
+     html,body {
+         width: 100%;
+         margin: auto;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     
+     }
+
+     /*navBar*/
+
+     .bordureNav {
+         border-bottom: 1px solid blue;
+         border-top: none;
+     }
+
+     .bordureNavactivités {
+         border-bottom: 1px solid grey;
+         
+     }
+
+     .navresponsive {
+        flex-wrap: wrap-reverse;
+        
+        
+     }
+
+     /*Filtres*/
+
+     .flexwrapfiltres {
+         flex-wrap: wrap;
+     }
+
+
     .reversediv {
       flex-direction: column-reverse;
       height: auto;
-      
-      
 
     }
+
+
     .reverseheberg {
         flex-direction: column;
         height: auto;
+        
           
     }
     .backNoGrey {
         background-color: white;
     }
 
-    .sizeHebergement{
+    
+
+    .heightreponsive {
+        height: auto;
+    }
+
+    
+    
+
+    
+        
+    
+
+    
+    
+    
+
+    /*popoulaires*/
+
+    .sizeimgpop {
+        width: 80%;
+    }
+    
+    .sizepopulaires {
         width: 100%;
+        margin: auto;
+    }
+
+    .tailediv{
+        width: 100%;
+    }
+
+    /*Hebergement*/
+       
+    .sizeHebergement {
+        width: 100%;
+        margin: auto;
+        
     }
 
     .tailledivhebergement {
-        width: 90%;
+        width: 80%;
+        height: auto;
+        
     }
 
-    .sizepopulaires {
+
+    .backbackresp { 
+         border-radius: 25px;
+         box-shadow: 0px 0px 10px rgb(189, 189, 189);
+           
+    }
+
+    .sizeimg {
         width: 100%;
+        height: auto;
+        
+    }
+
+    /*Activités*/
+
+    .imgsizeactivites {
+        height: 300px;
+        width: 80%;
+    }
+
+
+    .widthact {
+      width: 100%;
     }
 
     .blocActivités {
         width: 100%;
+        justify-content: center;
     }
 
-    .tailediv{
-        width: 90%;
-        margin: 0;
-        padding: 0;
+    .margindivact {
+        width: 100%;
+       margin: auto;
     }
 
-    .imgsizeactivites {
-        height: 300px;
+    .borderact {
+        width: 80%;
+        box-shadow: 0px 0px 10px rgb(189, 189, 189);
+        
     }
+
+    .marginbottomact {
+        margin-bottom: 25px;
+    }
+
+
+
+    
   }
 
   
