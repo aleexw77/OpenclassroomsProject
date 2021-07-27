@@ -235,14 +235,14 @@ align-items: center;
 
 .sizeimg {
     width: 100%;
-    height: 200px;
+    height: 150px;
     border-radius: 25px 25px 0 0;
 
 }
 
 .tailledivhebergement {
     width: 30%;
-    height: 330px; 
+    height: 300px; 
 }
 
 .tailledivhebergement:hover {
@@ -267,7 +267,7 @@ align-items: center;
 }
 
 .marginbot {
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 .marginbotdiv {
@@ -320,7 +320,13 @@ transform: scale(1.1);
 .align1 {
     display: flex;
     align-items: center;
+    
 }
+
+.heightop {
+    margin-top: 35px;
+}
+
 .paddingimgright {
     padding-right: 20px;
 }
@@ -377,19 +383,31 @@ transform: scale(1.1);
     color : grey;
 }
 
-.paddingtopstars {
   
-  
-}
+
 
 .marginlespluspopulaires {
     margin-left: 50px;
     
 }
 
+.paddingstars1 {
+    padding-bottom: 65px;
+}
+
+.paddingstars2 {
+    padding-bottom: 45px;
+}
+
 .marginpop2 {
     margin-top: 50px;
     height: auto;
+}
+
+.colonAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
@@ -437,6 +455,10 @@ align-items: center;
     border-radius: 0px 0px 15px 15px;
 }
 
+.paddingtexteact {
+  padding-left: 10px;  
+}
+
 .borderimg {
   border-radius: 25px 25px 0 0;
 }
@@ -462,6 +484,7 @@ align-items: center;
     width: 100%;
     height: 400px;
     background-color: #f2f2f2;
+    
 }
 
 .columnBetweenfoot {
@@ -471,15 +494,22 @@ align-items: center;
     justify-content: space-between;
 }
 
-.tailledivfooter {
-    
-    padding-bottom:70px;
+  .paddingleffooter {
+      padding-left: 35px;
+  }
 
+
+
+.divfootersize {
+    height: 300px;
+    width: 75%;
 }
 
 .paddingrightfoot {
     padding-right: 800px;
 }
+
+
 
 
 @media screen and (max-width: 1025px) {
@@ -578,7 +608,11 @@ align-items: center;
     .tailledivhebergement {
         width: 80%;
         height: auto;
-        
+        margin-bottom: 25px; 
+    }
+
+    .marginbotdiv {
+        margin: 0;
     }
 
 
@@ -590,7 +624,7 @@ align-items: center;
 
     .sizeimg {
         width: 100%;
-        height: auto;
+        height: 280px;
         
     }
 
@@ -626,6 +660,38 @@ align-items: center;
         margin-bottom: 25px;
     }
 
+    /*FOOTER*/
+
+    .columNrespfooter {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding-left: 50px;
+        
+        
+    }
+
+    
+    .sizeFooter {
+        height: auto;
+    }
+
+    .paddingleffooter {
+        padding: 0;
+    }
+
+    
+    .columnBetweenfoot {
+     align-items: flex-start;
+    }
+
+    .marginTexte1 {
+        margin-bottom: -1px;
+    }
+
+    
+
+    
 
 
     
