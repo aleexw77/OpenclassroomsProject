@@ -132,6 +132,14 @@ html,body {
     border-radius: 0 10px 10px 0;
 }
 
+.deskNone {
+    display: none;
+}
+
+
+
+
+
 /* Filtres */
 
 .margF {
@@ -231,6 +239,15 @@ align-items: center;
 
     
     
+}
+
+.imgamina {
+    background-image: url(./images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 25px 25px 0 0;
 }
 
 .sizeimg {
@@ -473,9 +490,60 @@ align-items: center;
  margin-right: 50px;
 }
 
+.imgpomègues {
+    background-image: url(./images/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 270px;
+}
+
 .imgdivactivites{
     width: 100%;
 }
+
+.imgsizeactivitesdesKtop{
+    width: 100%;
+    height: 600px;
+}
+
+.imgsizeactivitesdesKtop1{
+    width: 100%;
+    height: 270px;
+}
+
+.imgsizeactivitesdesKtop2{
+    width: 100%;
+    height: 165px;
+}
+
+.imgsizeactivitesdesKtop3{
+    width: 100%;
+    height: 600px;
+}
+
+.imgsizeactivitesdesKtop4{
+    width: 100%;
+    height: 200px;
+}
+
+.imgsizeactivitesdesKtop5{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*FOOTER*/
 
@@ -541,6 +609,35 @@ align-items: center;
         
      }
 
+     /*HEADER*/
+
+     .buttonSearch {
+         height: 50px;
+         width: 50px;
+         border-radius: 10px 10px 10px 10px;
+        
+         
+     }
+
+     .displaynone {
+         display: none;
+     }
+
+     .deskNone {
+         display: block;
+     }
+
+     
+
+     .bordureSearch {
+        width: 330px;
+        border-radius: 10px;
+        border: 0.5px solid #f2f2f2;
+     }
+
+     
+         
+
      /*Filtres*/
 
      .flexwrapfiltres {
@@ -574,22 +671,14 @@ align-items: center;
     
     
 
-    
-        
-    
-
-    
-    
-    
-
     /*popoulaires*/
 
     .sizeimgpop {
-        width: 80%;
+        max-width: 80%;
     }
     
     .sizepopulaires {
-        width: 100%;
+       width: 100%;
         margin: auto;
     }
 
@@ -693,8 +782,4 @@ align-items: center;
 
     
 
-
-    
-  }
-
-  
+}
