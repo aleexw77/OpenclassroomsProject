@@ -259,7 +259,7 @@ align-items: center;
 
 .tailledivhebergement {
     width: 30%;
-    height: 300px; 
+    height: auto; 
 }
 
 .tailledivhebergement:hover {
@@ -277,11 +277,7 @@ align-items: center;
 }
 
 
-.backback {
-    padding: 4px;
-    background-color: white;
-    border-radius: 25px;
-}
+
 
 .marginbot {
     margin-top: 45px;
@@ -295,16 +291,8 @@ align-items: center;
     padding-left: 1px;
 }
 
-.tailledivpopu {
-width: 55%;
-height: 200px;
-}
 
-.sizediv {
-    width: 80%;
-    height: 200px;
-    
-}
+/*populaires*/
 
 
 .sizediv:hover {
@@ -317,22 +305,54 @@ transform: scale(1.1);
 }
 
 
+.sizediv {
+    width: 90%;
+    height: auto;
+    
+    
+    
+}
 
+.backback {
+    
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+}
 
 
 .sizeimgpop {
     height: 200px;
     width: 100%;
     border-radius: 25px 0 0 25px;
+    padding-top: 3px;
+    padding-left: 2px;
 }
 
-.marginpop {
-    margin-left: 40px;
-    margin-right: 35px;
+.tailledivpopuimg {
+    width: 60%;
+    height: auto;
+  }
+
+  .taileldivpopu2 {
+    height: auto;
+    width: 52%;
+    
 }
-.paddingTextepop {
- padding-right: 20px;
+
+.paddingbottompop {
+    padding-bottom: 20px;
 }
+
+
+
+
+
+
+.marginTextepop {
+ margin-right: 10px;
+}
+
 
 .align1 {
     display: flex;
@@ -359,11 +379,11 @@ transform: scale(1.1);
     justify-content: center;
     
     
+    
+    
 }
 
-.taileldivpopu {
-    height: 235px;
-}
+
 
 
 
@@ -481,8 +501,7 @@ align-items: center;
 }
 
 .borderact {
-    
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 0px 0px 10px rgb(189, 189, 189);
     width: 100%;
 }
 
@@ -642,6 +661,9 @@ align-items: center;
 
      .flexwrapfiltres {
          flex-wrap: wrap;
+         align-items: flex-start;
+         
+         
      }
 
 
@@ -685,6 +707,9 @@ align-items: center;
     .tailediv{
         width: 100%;
     }
+
+    
+
 
     /*Hebergement*/
        
