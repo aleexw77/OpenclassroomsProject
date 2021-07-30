@@ -163,6 +163,13 @@ align-items: center;
     margin-right: 20px;
 }
 
+.scalefiltres:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
 .IconsBack {
     border-radius: 25px;
     width: 52px;
@@ -186,17 +193,14 @@ align-items: center;
 }
 
 
-
-
-
-
-
 .borderF {
     border:2px solid #f2f2f2;
     height: 50px;
     border-radius: 30px; 
     margin-right: 20px;
 }
+
+
 
 /* hebergementpop*/
 .paddingtext {
@@ -271,7 +275,7 @@ align-items: center;
 
 
 .padTexte {
-    padding-left: 50px;
+    padding-left: 25px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
@@ -308,9 +312,15 @@ transform: scale(1.1);
 .sizediv {
     width: 90%;
     height: auto;
-    
-    
-    
+     
+}
+
+.paddingdesktoptitre {
+    padding-left: 35px;
+}
+
+.paddinglogopopudesk {
+    padding-right: 25px;
 }
 
 .backback {
@@ -377,11 +387,10 @@ transform: scale(1.1);
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
-    
-    
-    
+  
 }
+
+
 
 
 
@@ -614,18 +623,60 @@ align-items: center;
 
      .bordureNav {
          border-bottom: 1px solid blue;
+         
          border-top: none;
      }
 
      .bordureNavactivités {
          border-bottom: 1px solid grey;
          
+         
+         
      }
 
      .navresponsive {
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
         
+         
+     }
+
+     .absoluteinscrire {
+         position: absolute;
+         top: -10px;
+         right: 1px;
+         padding-right: 140px;
+         
+         
+         
+     }
+
+     .sizeLiens {
+         width: 100%;
+         
         
+     }
+
+    
+
+     .divheberg {
+         width: 50%;
+         
+     }
+
+    
+     .divactivitésresp {
+         width: 50%;
+         
+        
+           
+     }
+         
+     
+
+     
+
+     .sizeNav {
+         height: auto;
      }
 
      /*HEADER*/
@@ -696,7 +747,7 @@ align-items: center;
     /*popoulaires*/
 
     .sizeimgpop {
-        max-width: 80%;
+        max-width: 90%;
     }
     
     .sizepopulaires {
@@ -706,6 +757,26 @@ align-items: center;
 
     .tailediv{
         width: 100%;
+    }
+
+    .sizediv {
+        width: 80%;
+    }
+
+    .tailledivpopuimg {
+        width: 35%;
+    }
+
+    .responsivetitre {
+        justify-content: space-between;
+    }
+
+    .paddingtittre {
+        padding-left: 55px;
+    }
+
+    .paddinglogo {
+        padding-right: 45px;
     }
 
     
