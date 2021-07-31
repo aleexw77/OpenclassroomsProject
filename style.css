@@ -408,7 +408,7 @@ transform: scale(1.1);
 
 .afficherplusposition {
     padding-left: 30px;
-    margin-top: 25px;
+    margin-top: 60px;
     margin-bottom: 20px;
     
 }
@@ -772,7 +772,7 @@ align-items: center;
     }
 
     .paddingtittre {
-        padding-left: 55px;
+        padding-left: 50px;
     }
 
     .paddinglogo {
@@ -813,6 +813,14 @@ align-items: center;
         
     }
 
+    .paddingresponsivehebergtitre {
+        padding-left: 100px;
+    }
+
+    .afficherplusposition {
+        padding-left: 105px;
+    }
+
     /*Activités*/
 
     .imgsizeactivites {
@@ -845,13 +853,19 @@ align-items: center;
         margin-bottom: 25px;
     }
 
+    .paddingactivitéstitreresp {
+        padding-left: 105px;
+    }
+
+    
+
     /*FOOTER*/
 
     .columNrespfooter {
         flex-direction: column;
         height: auto;
         align-items: flex-start;
-        padding-left: 50px;
+        padding-left: 100px;
         
         
     }
