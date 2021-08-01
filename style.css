@@ -246,7 +246,7 @@ align-items: center;
 }
 
 .imgamina {
-    background-image: url(./images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-image: url("img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -519,7 +519,7 @@ align-items: center;
 }
 
 .imgpomègues {
-    background-image: url(./images/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-image: url(img/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
