@@ -644,7 +644,7 @@ align-items: center;
          position: absolute;
          top: -10px;
          right: 1px;
-         padding-right: 140px;
+         
          
          
          
@@ -711,10 +711,24 @@ align-items: center;
      /*Filtres*/
 
      .flexwrapfiltres {
-         flex-wrap: wrap;
-         align-items: flex-start;
+         flex-wrap:wrap;
          
+             
+     }
+
+     .postionrelative {
+         position: relative;  
          
+     }
+
+     .positionabosulute {
+         position: absolute;
+         top: -50px;
+         
+     }
+
+     .marGefiltresreponsive {
+         margin-bottom: 10px;
      }
 
 
@@ -893,3 +907,89 @@ align-items: center;
     
 
 }
+
+@media screen and (max-width: 770px) {
+  
+  
+
+  /*Hebergement*/
+
+  .paddingresponsivehebergtitre {
+    padding-left: 80px;
+}
+
+
+
+  /*POPULAIRES*/
+
+  .paddingtittre {
+      padding-left: 40px;
+  }
+
+  .paddinglogo {
+    padding-right: 35px;
+}
+
+  /*Activités*/
+
+  .paddingactivitéstitreresp {
+    padding-left: 85px;
+}
+
+
+   /*FOOTER*/
+   
+    .columNrespfooter {
+        padding-left: 80px;
+    } 
+    
+    
+
+}
+
+
+
+@media screen and (max-width: 415px) {
+
+
+/*Hebergement*/
+
+.paddingresponsivehebergtitre {
+    padding-left: 55px;
+}
+
+
+
+  /*POPULAIRES*/
+
+  .paddingtittre {
+      padding-left: 25px;
+  }
+
+  .paddinglogo {
+    padding-right: 20px;
+}
+
+  /*Activités*/
+
+  .paddingactivitéstitreresp {
+    padding-left: 50px;
+}
+
+
+   /*FOOTER*/
+   
+    .columNrespfooter {
+        padding-left: 50px;
+    } 
+
+
+
+
+
+
+}
+
+
+
+
